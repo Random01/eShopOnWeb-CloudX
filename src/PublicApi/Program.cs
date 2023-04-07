@@ -122,10 +122,11 @@ builder.Services.AddSwaggerGen(c =>
             });
 });
 
+builder.Services.AddApplicationInsightsTelemetry(builder.Configuration["APPLICATIONINSIGHTS_CONNECTION_STRING"]);
+
 var app = builder.Build();
 
 app.Logger.LogInformation("PublicApi App created...");
-
 app.Logger.LogInformation("Seeding Database...");
 
 using (var scope = app.Services.CreateScope())
@@ -152,7 +153,7 @@ if (app.Environment.IsDevelopment())
     app.UseDeveloperExceptionPage();
 }
 
-app.UseMiddleware<ExceptionMiddleware>();
+//app.UseMiddleware<ExceptionMiddleware>();
 
 app.UseHttpsRedirection();
 
