@@ -11,6 +11,7 @@
     <PackageVersion Include="Ardalis.Specification" Version="6.1.0" />
     <PackageVersion Include="Ardalis.ListStartupServices" Version="1.1.4" />
     <PackageVersion Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageVersion Include="Azure.Messaging.ServiceBus" Version="7.14.0" />
     <PackageVersion Include="BlazorInputFile" Version="0.2.0" />
     <PackageVersion Include="Blazored.LocalStorage" Version="4.3.0" />
     <PackageVersion Include="BuildBundlerMinifier" Version="3.2.449" PrivateAssets="All" />
@@ -45,6 +46,11 @@
     <PackageVersion Include="Swashbuckle.AspNetCore" Version="6.5.0" />
     <PackageVersion Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.5.0" />
     <PackageVersion Include="Swashbuckle.AspNetCore.Annotations" Version="6.5.0" />
+    <PackageVersion Include="Microsoft.Azure.WebJobs.Extensions.CosmosDB" Version="4.3.0" />
+    <PackageVersion Include="Microsoft.NET.Sdk.Functions" Version="4.1.1" />
+    <PackageVersion Include="Azure.Storage.Blobs" Version="12.16.0" />
+    <PackageVersion Include="Microsoft.Azure.WebJobs.Extensions.ServiceBus" Version="4.3.0" />
+    <PackageVersion Include="Microsoft.Azure.WebJobs.Extensions.Storage" Version="5.1.2" />
     <!-- Test -->
     <PackageVersion Include="Microsoft.AspNetCore.Mvc.Testing" Version="7.0.4" />
     <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.5.0" />
